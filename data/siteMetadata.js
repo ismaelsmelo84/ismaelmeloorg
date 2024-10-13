@@ -11,7 +11,7 @@ const siteMetadata = {
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
+  email: 'ismaelsmelo84@gmail.com',
   github: 'https://github.com',
   x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
@@ -78,8 +78,8 @@ const siteMetadata = {
       // please provide a link below to your custom theme css file.
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
-      // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'en',
+      // This corresponds to the `data-lang="pt"` in giscus's configurations
+      lang: 'pt',
     },
   },
   search: {

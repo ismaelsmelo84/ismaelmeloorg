@@ -20,7 +20,7 @@ const siteMetadata = {
   linkedin: 'https://www.linkedin.com',
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
-  locale: 'en-US',
+  locale: 'pt-BR',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
   analytics: {

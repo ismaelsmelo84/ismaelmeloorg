@@ -116,7 +116,7 @@ const ThemeSwitch = () => {
                         <div className="mr-2">
                           <Monitor />
                         </div>
-                        Do sistema
+                        Automático
                       </button>
                     )}
                   </Menu.Item>

@@ -25,7 +25,7 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://www.labofcodes.com">Lab of Codes</Link>
+          <Link href="https://www.labofcodes.com">By Lab of Codes</Link>
         </div>
       </div>
     </footer>

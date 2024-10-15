@@ -74,7 +74,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                       <dl className="whitespace-nowrap text-sm font-medium leading-5">
                         <dt className="sr-only">Nome</dt>
                         <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
-                        <dt className="sr-only">Twitter</dt>
+                        <dt className="sr-only">X</dt>
                         <dd>
                           {author.twitter && (
                             <Link
@@ -97,7 +97,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
               <div className="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-300">
                 <Link href={discussUrl(path)} rel="nofollow">
-                  Discussão no Twitter
+                  Discutir no X
                 </Link>
                 {` • `}
                 <Link href={editUrl(filePath)}>Ver no GitHub</Link>
@@ -156,7 +156,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                   aria-label="Back to the blog"
                 >
-                  &larr; Voltar para o blog
+                  &larr; Voltar ao blog
                 </Link>
               </div>
             </footer>

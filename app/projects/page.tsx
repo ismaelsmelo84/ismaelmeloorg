@@ -13,7 +13,7 @@ export default function Projects() {
             Projetos
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Empresas com as quais já trabalhei
+            Aqui estão algumas das empresas que já apoiei
           </p>
         </div>
         <div className="container py-12">

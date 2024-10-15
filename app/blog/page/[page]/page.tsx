@@ -28,7 +28,7 @@ export default function Page({ params }: { params: { page: string } }) {
       posts={posts}
       initialDisplayPosts={initialDisplayPosts}
       pagination={pagination}
-      title="Todos os posts"
+      title="Todos os Posts"
     />
   )
 }

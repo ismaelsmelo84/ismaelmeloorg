@@ -66,9 +66,9 @@ function createSearchIndex(allBlogs) {
   ) {
     writeFileSync(
       `public/${siteMetadata.search.kbarConfig.searchDocumentsPath}`,
-      JSON.stringify((sortPosts(allBlogs)))
+      JSON.stringify(sortPosts(allBlogs))
     )
-    console.log('Local search index generated...')
+    console.log('Índice de pesquisa local gerado...')
   }
 }
 ```
